@@ -1,0 +1,24 @@
+class college
+     name="KPRIT"
+     place=ghanpur
+     def read(self):
+         place=ghatkesar
+         print(name)
+         print(place)
+         def write (self)
+           print(place)
+  c1=college()
+  c1.college()
+  print(s1.college)
+  print(s2.college)
+class demo()
+ def addition(self, a,b):
+      print(a+b)
+ def subtraction(self, a,b):
+       print(a-b)
+def multiply(self,a,b):
+        print(a*b)
+d1=demo()
+d1.addition(10,20)
+d1.subtraction(40,10)
+d1.multipy(3,10)
