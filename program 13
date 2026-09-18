@@ -1,0 +1,19 @@
+class bankaccount:
+    holdername="shalini"
+    accountno= "1234"
+    balance=1000
+    def deposit(self,money):
+        money=int(input("enter the money"))
+        money=money+self.balance
+        print("balance",self.balance)
+    def withdraw(self,cash):
+        cash=int(input("enter cash"))
+        print("cash")
+    def balance(self,balance):
+        print(self.balance)
+         
+d=bankaccount()
+print(d.holdername)
+print(d.accountno)
+print(d.balance)
+
