@@ -1,0 +1,27 @@
+lass Student:
+    name = input("Name: ")
+    roll = int(input("Roll No: "))
+    m1 = int(input("Mark 1: "))
+    m2 = int(input("Mark 2: "))
+    m3 = int(input("Mark 3: "))
+
+s = Student()
+
+total = s.m1 + s.m2 + s.m3
+avg = total / 3
+
+print("Name:", s.name)
+print("Roll No:", s.roll)
+print("Total Marks:", total)
+print("Average:", avg)
+
+if avg >= 90:
+    print("Grade: A")
+elif avg >= 75:
+    print("Grade: B")
+elif avg >= 60:
+    print("Grade: C")
+elif avg >= 40:
+    print("Grade: D")
+else:
+    print("Grade: Fail")
