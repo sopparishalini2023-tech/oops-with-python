@@ -1,0 +1,17 @@
+class Employee:
+    def salary(self):
+        self.id = int(input("Enter ID: "))
+        self.name = input("Enter Name: ")
+        self.basic = int(input("Enter Basic Salary: "))
+
+        hra = self.basic * 20 / 100
+        da = self.basic * 10 / 100
+        total = self.basic + hra + da
+
+        print("ID:", self.id)
+        print("Name:", self.name)
+        print("Basic Salary:", self.basic)
+        print("Total Salary:", total)
+
+e = Employee()
+e.salary()
